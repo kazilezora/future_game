@@ -1,0 +1,1836 @@
+fileFormatVersion: 2
+guid: 217550bcdb0750240b7af6baeb861a3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -226201393352889299
+    second: DIKENS_2_0
+  - first:
+      213: 7113274152457749111
+    second: DIKENS_2_1
+  - first:
+      213: 6584264616655509712
+    second: DIKENS_2_2
+  - first:
+      213: -2531743098924521410
+    second: DIKENS_2_3
+  - first:
+      213: 4428076584766740236
+    second: DIKENS_2_4
+  - first:
+      213: 7815067752798995399
+    second: DIKENS_2_5
+  - first:
+      213: 855142499435501969
+    second: DIKENS_2_6
+  - first:
+      213: 2018949111427005642
+    second: DIKENS_2_7
+  - first:
+      213: 7706348697786808436
+    second: DIKENS_2_8
+  - first:
+      213: 5046091169777943838
+    second: DIKENS_2_9
+  - first:
+      213: 9016460019252415874
+    second: DIKENS_2_10
+  - first:
+      213: -577139682183656959
+    second: DIKENS_2_11
+  - first:
+      213: -7463892226131331833
+    second: DIKENS_2_12
+  - first:
+      213: -3314983902226136688
+    second: DIKENS_2_13
+  - first:
+      213: -2787637129806723086
+    second: DIKENS_2_14
+  - first:
+      213: 5067205395669184890
+    second: DIKENS_2_15
+  - first:
+      213: -6446506938828045426
+    second: DIKENS_2_16
+  - first:
+      213: 6185946985902463656
+    second: DIKENS_2_17
+  - first:
+      213: 323156148984306191
+    second: DIKENS_2_18
+  - first:
+      213: -316048397149469545
+    second: DIKENS_2_19
+  - first:
+      213: 4367613209335575428
+    second: DIKENS_2_20
+  - first:
+      213: -4399861408612191980
+    second: DIKENS_2_21
+  - first:
+      213: 7218382883002666964
+    second: DIKENS_2_22
+  - first:
+      213: 8601366273670934208
+    second: DIKENS_2_23
+  - first:
+      213: 1901654903061642446
+    second: DIKENS_2_24
+  - first:
+      213: -698764633932247671
+    second: DIKENS_2_25
+  - first:
+      213: -1255757738058407705
+    second: DIKENS_2_26
+  - first:
+      213: 6838386420558603855
+    second: DIKENS_2_27
+  - first:
+      213: -5406440887488119461
+    second: DIKENS_2_28
+  - first:
+      213: -7375782522721465727
+    second: DIKENS_2_29
+  - first:
+      213: 7540306997692144479
+    second: DIKENS_2_30
+  - first:
+      213: -7205205942497642956
+    second: DIKENS_2_31
+  - first:
+      213: -3480789292641571563
+    second: DIKENS_2_32
+  - first:
+      213: 6708448472241624870
+    second: DIKENS_2_33
+  - first:
+      213: 7969102802551476951
+    second: DIKENS_2_34
+  - first:
+      213: 3812471119086871295
+    second: DIKENS_2_35
+  - first:
+      213: -5670457318911959334
+    second: DIKENS_2_36
+  - first:
+      213: -6786683649698845049
+    second: DIKENS_2_37
+  - first:
+      213: -8040350634948493204
+    second: DIKENS_2_38
+  - first:
+      213: -9113828048256448238
+    second: DIKENS_2_39
+  - first:
+      213: 6948033610624010298
+    second: DIKENS_2_40
+  - first:
+      213: -6376836876137925999
+    second: DIKENS_2_41
+  - first:
+      213: 4165263683440747547
+    second: DIKENS_2_42
+  - first:
+      213: 872128109962637439
+    second: DIKENS_2_43
+  - first:
+      213: -6975558779754217320
+    second: DIKENS_2_44
+  - first:
+      213: -1912219166803065462
+    second: DIKENS_2_45
+  - first:
+      213: -1735154680820020892
+    second: DIKENS_2_46
+  - first:
+      213: -7920030704324495457
+    second: DIKENS_2_47
+  - first:
+      213: -4639020036259209738
+    second: DIKENS_2_48
+  - first:
+      213: -8442569121272651356
+    second: DIKENS_2_49
+  - first:
+      213: -5665636020339420298
+    second: DIKENS_2_50
+  - first:
+      213: -3819008711333641355
+    second: DIKENS_2_51
+  - first:
+      213: 2328331057353561686
+    second: DIKENS_2_52
+  - first:
+      213: 2511044244752285904
+    second: DIKENS_2_53
+  - first:
+      213: -6611011898678844924
+    second: DIKENS_2_54
+  - first:
+      213: 8894656252333361681
+    second: DIKENS_2_55
+  - first:
+      213: -8239077756808636710
+    second: DIKENS_2_56
+  - first:
+      213: 4091292235157581691
+    second: DIKENS_2_57
+  - first:
+      213: -2393902136517794366
+    second: DIKENS_2_58
+  - first:
+      213: -2000320106724031070
+    second: DIKENS_2_59
+  - first:
+      213: 2804637919108565712
+    second: DIKENS_2_60
+  - first:
+      213: -8395973034548369330
+    second: DIKENS_2_61
+  - first:
+      213: 7548062070513897011
+    second: DIKENS_2_62
+  - first:
+      213: -7147292669227687289
+    second: DIKENS_2_63
+  - first:
+      213: -7907505081670124141
+    second: DIKENS_2_64
+  - first:
+      213: -6452001242567720806
+    second: DIKENS_2_65
+  - first:
+      213: 715125771860798562
+    second: DIKENS_2_66
+  - first:
+      213: 1923396162253051685
+    second: DIKENS_2_67
+  - first:
+      213: 44660427929259822
+    second: DIKENS_2_68
+  - first:
+      213: 9050807345887205651
+    second: DIKENS_2_69
+  - first:
+      213: 4853030326706513388
+    second: DIKENS_2_70
+  - first:
+      213: -8097907508869714409
+    second: DIKENS_2_71
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DIKENS_2_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 193
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ca08df70f5cdcf0800000000000000
+      internalID: -226201393352889299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 193
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7724637672d67b260800000000000000
+      internalID: 7113274152457749111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 193
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8dceea8c1006b50800000000000000
+      internalID: 6584264616655509712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_3
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 193
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38ae06b0117ddcd0800000000000000
+      internalID: -2531743098924521410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 177
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c071f316130b37d30800000000000000
+      internalID: 4428076584766740236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 177
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3c13517b2b47c60800000000000000
+      internalID: 7815067752798995399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 177
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199513f82931edb00800000000000000
+      internalID: 855142499435501969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 177
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc723e158fb40c10800000000000000
+      internalID: 2018949111427005642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_8
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 161
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47870e68f4372fa60800000000000000
+      internalID: 7706348697786808436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 161
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1589defe21570640800000000000000
+      internalID: 5046091169777943838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 161
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d4d03cd96e02d70800000000000000
+      internalID: 9016460019252415874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 161
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a49a154869df7f0800000000000000
+      internalID: -577139682183656959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 145
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70574a3d09dea6890800000000000000
+      internalID: -7463892226131331833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 145
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0914ca754bfcef1d0800000000000000
+      internalID: -3314983902226136688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 145
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74e2bccc25059d0800000000000000
+      internalID: -2787637129806723086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 145
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71fdccc574525640800000000000000
+      internalID: 5067205395669184890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83401d18186986a0800000000000000
+      internalID: -6446506938828045426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 145
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa5d165206e8d550800000000000000
+      internalID: 6185946985902463656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 145
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a513b2ec41c7400800000000000000
+      internalID: 323156148984306191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 145
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794031448ab2d9bf0800000000000000
+      internalID: -316048397149469545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 129
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48330c2c211ec9c30800000000000000
+      internalID: 4367613209335575428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 129
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41178be3c5d80f2c0800000000000000
+      internalID: -4399861408612191980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 129
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df422accf8dc2460800000000000000
+      internalID: 7218382883002666964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_23
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 129
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce6e2dcd013e5770800000000000000
+      internalID: 8601366273670934208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc7e561f09046a10800000000000000
+      internalID: 1901654903061642446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 129
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dccd4844d7d46f0800000000000000
+      internalID: -698764633932247671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_26
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 129
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0a4139df6a29ee0800000000000000
+      internalID: -1255757738058407705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 129
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46204ad734d6ee50800000000000000
+      internalID: 6838386420558603855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_28
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d7f1a48a678f4b0800000000000000
+      internalID: -5406440887488119461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_29
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a07a8cfd4f3a990800000000000000
+      internalID: -7375782522721465727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_30
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b15de934d84a860800000000000000
+      internalID: 7540306997692144479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_31
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436f4efbe57f10c90800000000000000
+      internalID: -7205205942497642956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_32
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dad129490c1bfc0800000000000000
+      internalID: -3480789292641571563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62759f5b752391d50800000000000000
+      internalID: 6708448472241624870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d296acd6c0f79e60800000000000000
+      internalID: 7969102802551476951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 113
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2eb91984e98e430800000000000000
+      internalID: 3812471119086871295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 97
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade1d30ac1d7e41b0800000000000000
+      internalID: -5670457318911959334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_37
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 97
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78eafb09d2bd0d1a0800000000000000
+      internalID: -6786683649698845049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_38
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c600f4672bfea6090800000000000000
+      internalID: -8040350634948493204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 97
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219ceaf5dad258180800000000000000
+      internalID: -9113828048256448238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 81
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3808b0b1cf5c6060800000000000000
+      internalID: 6948033610624010298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 81
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192ff27a5ace087a0800000000000000
+      internalID: -6376836876137925999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_42
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 81
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b142257604dfdc930800000000000000
+      internalID: 4165263683440747547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_43
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 81
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70b4f035eb6a1c00800000000000000
+      internalID: 872128109962637439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89084e67f36d13f90800000000000000
+      internalID: -6975558779754217320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8582069cce6675e0800000000000000
+      internalID: -1912219166803065462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 81
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469cd53d20e7be7e0800000000000000
+      internalID: -1735154680820020892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 81
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f973d8a5906661290800000000000000
+      internalID: -7920030704324495457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_48
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 65
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd99d80bd3ee9fb0800000000000000
+      internalID: -4639020036259209738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 65
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1acd66d18f5da80800000000000000
+      internalID: -8442569121272651356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 65
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673d20dae0e9f51b0800000000000000
+      internalID: -5665636020339420298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_51
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 65
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57306de9fc7200bc0800000000000000
+      internalID: -3819008711333641355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_52
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6569119b2c4ef4020800000000000000
+      internalID: 2328331057353561686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0cfbfbf6509d220800000000000000
+      internalID: 2511044244752285904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 65
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402ed5d64b7f044a0800000000000000
+      internalID: -6611011898678844924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_55
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 65
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a898f4cba207b70800000000000000
+      internalID: 8894656252333361681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_56
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 49
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad65994ce6ae8ad80800000000000000
+      internalID: -8239077756808636710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_57
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 49
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fa1ec7c9037c830800000000000000
+      internalID: 4091292235157581691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 49
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5eec5b0b627ced0800000000000000
+      internalID: -2393902136517794366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 49
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a584a9067f6d34e0800000000000000
+      internalID: -2000320106724031070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 33
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da8e0ce3531ce620800000000000000
+      internalID: 2804637919108565712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_61
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 33
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e486cf342038b7b80800000000000000
+      internalID: -8395973034548369330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 33
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e8497367a10c860800000000000000
+      internalID: 7548062070513897011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_63
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 33
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7822ee07f27bfcc90800000000000000
+      internalID: -7147292669227687289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_64
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 17
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39db4732606e24290800000000000000
+      internalID: -7907505081670124141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_65
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 17
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a904f56dd03e576a0800000000000000
+      internalID: -6452001242567720806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 17
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c6d71c913ace900800000000000000
+      internalID: 715125771860798562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 17
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52751757e9641ba10800000000000000
+      internalID: 1923396162253051685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_68
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f8d3e2c6aae9000800000000000000
+      internalID: 44660427929259822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_69
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3195a1ee35dea9d70800000000000000
+      internalID: 9050807345887205651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce52a83ae5d695340800000000000000
+      internalID: 4853030326706513388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DIKENS_2_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e2ad576047e9f80800000000000000
+      internalID: -8097907508869714409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
