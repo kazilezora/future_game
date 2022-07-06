@@ -127,7 +127,7 @@ public class PlayerController : MonoBehaviour
 
     void jump()
     {
-        if (Input.GetKeyDown(KeyCode.W) &&!isdashing&&istoc)
+        if (Input.GetKey(KeyCode.W) &&!isdashing&&istoc)
         {
                 
                 rbody.velocity = Vector2.up*jumpspeed;
