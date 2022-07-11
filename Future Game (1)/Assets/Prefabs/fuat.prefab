@@ -80,6 +80,7 @@ MonoBehaviour:
   yjumpforce: 5
   WallJumpDelay: 0.1
   go: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!1 &8685466431296826109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5102,6 +5103,7 @@ MonoBehaviour:
   kc: {fileID: 0}
   howMuckitjumped: 0
   ap: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!60 &8685466432280177231
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5203,8 +5205,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fallmulti: 2.6
   lowJumpMuli: 3.9
+  pc: {fileID: 0}
   gc: {fileID: 8685466432744355314}
   ap: {fileID: 0}
+  animator: {fileID: 0}
 --- !u!114 &5982906151103275228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5233,6 +5237,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HMKeyItHas: 0
+  Wichdoorforkeys: 0
+  kutu: 0
 --- !u!1 &8685466432744355317
 GameObject:
   m_ObjectHideFlags: 0

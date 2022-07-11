@@ -33,6 +33,8 @@ public class GroundCheck : MonoBehaviour
         if (collision.collider.tag == "Ground")
         {
             playerc.itTouchedOnce = false;
+            
+            
         }
 
         if (collision.collider.tag == "SpeedBoost")

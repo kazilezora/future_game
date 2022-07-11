@@ -7,11 +7,14 @@ public class Doorkey : MonoBehaviour
     
     public int HMKeyItHas;
 
+    public float kutu;
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         if( collision.gameObject.tag == "DoorKey")
         {
-            HMKeyItHas = HMKeyItHas + 1;
+            kutu = collision.gameObject.GetComponent<DoorkeyId>().Canopen;
+
             collision.gameObject.SetActive(false);
         }
     }

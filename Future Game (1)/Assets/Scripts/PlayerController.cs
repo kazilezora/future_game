@@ -35,10 +35,15 @@ public class PlayerController : MonoBehaviour
 
     public airpuffer ap;
     public Animator animator;
+
+    public float DashCounter;
+    public float DashLimit;
+    public Sprite sprite;
+    private Sprite normalsprite;
     void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
-       
+        normalsprite =transform.gameObject.GetComponent<SpriteRenderer>().sprite;
     }
     void FixedUpdate()
     {
@@ -71,13 +76,19 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         hitboxsmoller();
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R)&& DashLimit>DashCounter)
         {
             StartCoroutine(dash());
+            DashCounter++;
+        }
+        if (istoc == true)
+        {
+            DashCounter = 0;
         }
         jump();
         firsttochground();
         infiltration();
+
     }
     void infiltration()
     {
@@ -284,9 +295,11 @@ public class PlayerController : MonoBehaviour
     void OnTriggerStay2D(Collider2D collider)
     {
         InSomething = true;
+        transform.gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
     }
     void OnTriggerExit2D(Collider2D collider)
     {
         InSomething = false;
+        transform.gameObject.GetComponent<SpriteRenderer>().sprite = normalsprite;
     }
 }

@@ -13,8 +13,10 @@ public class OpenableDoors : MonoBehaviour
     private Vector2 updir;
     private Vector2 downdir;
     public int HMKeyThisDooorW;
-
-
+    public int Whichdoorforkey;
+    public float doorchoose;
+    public float understand = 0;
+    private float last;
     void Start()
     {
         updir = new Vector2(upgameob.transform.position.x, upgameob.transform.position.y);
@@ -23,21 +25,36 @@ public class OpenableDoors : MonoBehaviour
 
     void Update()
     {
+        if (understand == 0&&Dk.kutu==Whichdoorforkey)
+        {
+            doorchoose = Dk.kutu;
+            
+            if (doorchoose !=Whichdoorforkey)
+            {
+                understand = 1;
+                doorchoose = last;
+            }
+            last = doorchoose;
+
+        }
+
         Door›sMoving();
         if (Dk.HMKeyItHas == HMKeyThisDooorW)
         {
             pp.plate = 1;
         }
     }
+
     void Door›sMoving()
     {
-        if(new Vector2(transform.position.x,transform.position.y)!=updir&& whichdoor == pp.plate)
+        if (new Vector2(transform.position.x, transform.position.y) != updir && whichdoor == pp.plate || doorchoose == Whichdoorforkey)
         {
             transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), updir, SpeedOfDoor * Time.deltaTime);
         }
-        else if(new Vector2(transform.position.x, transform.position.y)!= downdir)
+        else if (new Vector2(transform.position.x, transform.position.y) != downdir)
         {
             transform.position = Vector2.MoveTowards(new Vector2(transform.position.x, transform.position.y), downdir, SpeedOfDoor * Time.deltaTime);
         }
     }
 }
+
