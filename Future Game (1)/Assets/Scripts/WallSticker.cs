@@ -21,6 +21,7 @@ public class WallSticker : MonoBehaviour
     {
         if(player.isdashing==false){
             animator.SetBool("Issliding",IsSliding);
+            
         }
         else if(player.isdashing==true){
             animator.SetBool("Issliding",false);
@@ -37,6 +38,7 @@ public class WallSticker : MonoBehaviour
         }
         if (IsSliding == true)
         {
+            animator.SetFloat("jumpspeed", 0);
             player.rbody.velocity = new Vector2(player.rbody.velocity.x, Mathf.Clamp(player.rbody.velocity.y, -SlidingSpeed, float.MaxValue));
         }
         if (IsSliding == true && Input.GetKey(KeyCode.W)&& Input.GetKeyDown(KeyCode.D )) 

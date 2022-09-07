@@ -6,8 +6,9 @@ public class Betterjump : MonoBehaviour
 {
     public float fallmulti=2.5f;
     public float lowJumpMuli = 2f;
+    public WallSticker ws;
 
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     public PlayerController pc;
     public GroundCheck gc;
     public airpuffer ap;
@@ -30,10 +31,12 @@ public class Betterjump : MonoBehaviour
 
         
     }
-    void betterjump()
+    public void betterjump()
     {
-        if(pc.isdashing==false){
-            animator.SetFloat("jumpspeed",rb.velocity.y);
+        if(pc.isdashing==false&& !pc.istoc && !ws.IsSliding){
+            print("sa");
+          animator.SetFloat("jumpspeed", rb.velocity.y);
+
         }
         else if(pc.isdashing==true){
             animator.SetFloat("jumpspeed",0);

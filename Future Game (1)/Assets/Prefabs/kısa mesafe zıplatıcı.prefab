@@ -70,13 +70,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a09a8e82e156b4643a5849949e153fce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gm: {fileID: 0}
   addforcepower: 8
   addforcedirectpower: 0
+  timedeltatimeturn: 0
+  WaitForSecondstime: 0
   ontramboline: 0
-  normal: 0
+  normal: 1
   sol: 0
   sag: 0
   basassa: 0
+  rigidbody: {fileID: 0}
 --- !u!1 &6865088599774718387
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,3 +233,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jb: {fileID: 6865088599725712188}
   clip: {fileID: 498519344743766660}
+  pc: {fileID: 0}

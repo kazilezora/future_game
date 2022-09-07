@@ -30,6 +30,7 @@ public class GroundCheck : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
+        
         if (collision.collider.tag == "Ground")
         {
             playerc.itTouchedOnce = false;
@@ -194,7 +195,12 @@ public class GroundCheck : MonoBehaviour
             Debug.Log("enter");
             for (int i = 0; i < sp.spawnps.Length; i++)
             {
-                if (sp.spawnps[i].transform.position == collider.transform.position && sp.LastSpawnp < i)
+                //                                                                  ||
+                //                                                                  ||
+                //                                                                \    /
+                // && sp.LastSpawnp < i---------------was here --------------------\  /
+                //                                                                  \/
+                if (sp.spawnps[i].transform.position == collider.transform.position   )
                 {
                     sp.LastSpawnp = i;
 

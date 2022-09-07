@@ -7,6 +7,7 @@ public class TrambolineController : MonoBehaviour
 
     public JumpBoost jb;
     public Animator clip;
+    public PlayerController pc;
 
     void Update()
     {
@@ -16,7 +17,9 @@ public class TrambolineController : MonoBehaviour
     {
         if (jb.ontramboline == true)
         {
+            pc.enteredsafelytoground = false;
             clip.SetBool("isontramboline", true);
+
         }
         if (jb.ontramboline == false)
         {

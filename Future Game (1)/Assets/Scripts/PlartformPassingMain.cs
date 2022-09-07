@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class PlartformPassingMain : MonoBehaviour
 {
+    public PlayerController pc;
     public bool playerinme;
 
     void OnTriggerStay2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "Player")
         {
+            pc.NotTheRightspot = true;
             playerinme = true;
         }
     }
@@ -17,6 +19,7 @@ public class PlartformPassingMain : MonoBehaviour
     {
         if(collider.gameObject.tag== "Player")
         {
+            pc.NotTheRightspot = false;
             playerinme = false;
         }
     }

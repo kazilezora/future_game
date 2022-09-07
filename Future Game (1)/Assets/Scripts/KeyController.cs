@@ -11,6 +11,7 @@ public class KeyController : MonoBehaviour
         if (collider.gameObject.tag == "Player")
         {
             nowplayertookme = true;
+            transform.gameObject.SetActive(false);
         }
         
     }

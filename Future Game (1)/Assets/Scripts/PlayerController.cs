@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    
     public bool istoc;
     public int scale;
     public Rigidbody2D rbody;
@@ -27,9 +27,14 @@ public class PlayerController : MonoBehaviour
     public WallSticker Ws;
     public BoxCollider2D collide;
     public PolygonCollider2D pcollide;
+    public BoxCollider2D groundcheckcollider;
+    public BoxCollider2D frontcontroolerbox;
+
     private bool InSomething;
     public bool itTouchedOnce;
 
+    public Ýnfilitration If;
+    public Deublejumpcntroller djc;
     public KeyController kc;
     public int howMuckitjumped;
 
@@ -37,9 +42,16 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
 
     public float DashCounter;
-    public float DashLimit;
     public Sprite sprite;
     private Sprite normalsprite;
+    public bool enteredsafelytoground=true;
+    public float karakteriduvardançýkarma;
+    public float karakteriyerdençýkarma;
+    public bool nowyoucanrescue;
+    public AmIInGround amig;
+    public Iamonsides Iamos;
+    public bool NotTheRightspot;
+
     void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
@@ -47,13 +59,32 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
+        if (!istoc && enteredsafelytoground == false)
+        {
+            Rigidbody2D rb = GetComponent<Rigidbody2D>();
+            animator.SetFloat("jumpspeed",rb.velocity.y );
+        }
+        else if (istoc)
+        {
+            enteredsafelytoground = true;
+            animator.SetFloat("jumpspeed", 0);
+        }
+
         ver = Input.GetAxis("Horizontal");
+        if (isdashing==false&& !Input.GetKeyDown(KeyCode.R))
+        {
+            animator.SetFloat("WalkAnim", Mathf.Abs(ver));
+        }
+        else if (isdashing && Input.GetKeyDown(KeyCode.R))
+        {
+            animator.SetFloat("WalkAnim", 0);
+        }
         
-        animator.SetFloat("WalkAnim", Mathf.Abs(ver));
+        
         animator.SetBool("DashFade",isdashing);
         if (!isdashing)
         {
-            if (Ws.IsWallJumpingr == false && Ws.IsWallJumpingl==false)
+            if (Ws.IsWallJumpingr == false && Ws.IsWallJumpingl==false )
             {
                 rbody.velocity = new Vector2(ver * speed, rbody.velocity.y);
             }
@@ -63,12 +94,12 @@ public class PlayerController : MonoBehaviour
 
         if (rbody.velocity.x > 0)
         {
-            transform.localScale = new Vector3(0.6f, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(0.7f, transform.localScale.y, transform.localScale.z);
 
         }
         else if (rbody.velocity.x < 0)
         {
-            transform.localScale = new Vector3(-0.6f, transform.localScale.y, transform.localScale.z);
+            transform.localScale = new Vector3(-0.7f, transform.localScale.y, transform.localScale.z);
         }
 
         
@@ -76,7 +107,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         hitboxsmoller();
-        if (Input.GetKeyDown(KeyCode.R)&& DashLimit>DashCounter)
+        if (Input.GetKeyDown(KeyCode.R)&& djc.playersusme >DashCounter)
         {
             StartCoroutine(dash());
             DashCounter++;
@@ -92,7 +123,7 @@ public class PlayerController : MonoBehaviour
     }
     void infiltration()
     {
-        if (Input.GetKey(KeyCode.W)&&rbody.velocity.y<0&&ap.inme==false)
+        if (Input.GetKey(KeyCode.W)&&rbody.velocity.y<0&&ap.inme==false&& If.suzulbaby)
         {
             rbody.drag = 10;
             
@@ -105,16 +136,43 @@ public class PlayerController : MonoBehaviour
     }
     void hitboxsmoller()
     {
+        if (InSomething&& isdashing)
+        {
+            frontcontroolerbox.enabled = false;
+            nowyoucanrescue = true;
+        }
+        if(InSomething && nowyoucanrescue&& amig.YesHesINGround && Iamos.isheinsides == false &&!NotTheRightspot)
+        {
+            
+            transform.position += new Vector3(0, karakteriyerdençýkarma * Time.deltaTime, 0);
+        }
+        if (InSomething && nowyoucanrescue&& transform.localScale.x < 0 && Iamos.isheinsides && !NotTheRightspot)
+        {
+            transform.position += new Vector3(karakteriduvardançýkarma * Time.deltaTime, 0, 0);
+
+        }
+        if (InSomething && nowyoucanrescue&& transform.localScale.x > 0 && Iamos.isheinsides && !NotTheRightspot)
+        {
+            transform.position += new Vector3(-karakteriduvardançýkarma * Time.deltaTime, 0, 0);
+        }
+        
+        
         if (isdashing == true)
         {
+
             pcollide.isTrigger = true;
             collide.enabled = true;
+            groundcheckcollider.enabled = false;
         }
-       if(isdashing == false && InSomething==false)
+        if(isdashing == false && InSomething==false)
         {
             pcollide.isTrigger = false;
             collide.enabled = false;
+            groundcheckcollider.enabled = true;
+            frontcontroolerbox.enabled = true;
+            nowyoucanrescue = false;
         }
+
     }
 
     void firsttochground()
@@ -294,11 +352,13 @@ public class PlayerController : MonoBehaviour
     }
     void OnTriggerStay2D(Collider2D collider)
     {
+
         InSomething = true;
         transform.gameObject.GetComponent<SpriteRenderer>().sprite = sprite;
     }
     void OnTriggerExit2D(Collider2D collider)
     {
+
         InSomething = false;
         transform.gameObject.GetComponent<SpriteRenderer>().sprite = normalsprite;
     }
